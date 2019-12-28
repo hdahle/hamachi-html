@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<title>hamachi.no</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400,700">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto", sans-serif;
+}
+/* headings: bold and extra character spacing */
+h6 {
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+/* text on top of image: white, transparent bg, light font */
+h1,h2,h3,h4,h5 {
+  font-weight: 100;
+  letter-spacing: 1px;
+  background-color: transparent;
+color: #eee;
+white-space: nowrap;
+}
+/* body text light grey, extra line spacing */
+body, html {
+  height: 100%;
+  color: #222;
+  line-height: 2;
+}
+/* remove underlines from hyperlinks */
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #ccc;
+}
+/* Hero-image with parallax scrolling effect */
+.bgimage {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #777;
+  background-image:
+    linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.1),rgba(0,0,0,0.7)),
+    url('/images/michele-purin-unsplash-1800x1200.jpg');
+  min-height: 100%;
+}
+/* Turn off parallax scrolling for mobiles */
+@media only screen and (max-device-width: 1366px) {
+  .bgimage {
+    background-attachment: scroll;
+  }
+}
+</style>
+
+<body>
+
+<!-- Landing page header: Image with parallax-scrolling -->
+<!-- The overlay text needs to be white w/transparent bg -->
+
+<div class="bgimage w3-display-container">
+  <!-- Title and tagline towards bottom, centered -->
+  <div class="w3-display-bottommiddle w3-padding w3-center">
+    <h1>hamachi</h1>
+    <h5>trying not to leave a mess</h5>
+    <!-- Down-arrow in lower right hand corner -->
+    <div class="w3-padding">
+      <h2><i class="fa fa-angle-down"></i></h2>
+    </div>
+  </div>
+</div>
+
+<!-- The content is limited in width using 'w3-content' -->
+<!-- Default width of w3-content is 960px -->
+
+<div class="w3-content w3-margin-top" style="max-width:800px">
+
+  <!-- Section: What We Do -->
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-padding-16">
+      <h6>what we do</h6>
+    </div>
+    <div class="w3-rest w3-container w3-padding-16">
+      Hamachi invests in technology companies that develop 
+      products and services 
+      in line with        
+      <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">
+        UN's Sustainable Development Goals
+      </a>
+    </div>  
+  </div>
+
+  <!-- Section: Technologies -->
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-padding-16">
+      <h6>technologies we like</h6>
+    </div>
+    <div class="w3-rest w3-container w3-padding-16">
+      Sensors and monitoring – 
+      we’re interested in sensor technologies and environmental monitoring.
+      Data collection is the first step towards quantifying the state 
+      of the environment – indoor and outdoor, 
+      in the air and below the surface
+      <p>
+      Analytics and visualization – 
+      cloud and big data technologies that turn data into information, 
+      using advanced visualization technologies to make the data 
+      easily accessible to all
+      </p>
+      <p>
+      Communication and collaboration – 
+      visual communication is fantastic for meeting more often 
+      while avoiding the negative environmental impact of travel. 
+      New real time messaging technologies drive efficiencies 
+      and engagement
+      </p>
+    </div>  
+  </div>
+
+  <!-- Third section: Investments -->
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-padding-16">
+      <h6>where we are involved</h6>
+    </div>
+    <div class="w3-rest w3-container w3-padding-16">   
+    <ul class="w3-ul w3-hoverable">
+    <li><a rel="noopener noreferrer" href="https://pexip.com">Pexip</a></li>
+    <li><a rel="noopener noreferrer" href="https://noisolation.com">No Isolation</a></li>
+    <li><a rel="noopener noreferrer" href="https://novotech.no">Novotech</a></li>
+    <li><a rel="noopener noreferrer" href="https://airquality.eco">Airquality.eco</a></li>
+    <li><a rel="noopener noreferrer" href="https://prepp.io">Prepp</a></li>
+    <li><a rel="noopener noreferrer" href="">(coming soon)</a></li>
+    </ul>
+    </div>  
+  </div>
+
+  <!-- Section: About & Contact -->
+
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-padding-16">
+      <h6>about</h6>
+    </div>
+    <div class="w3-rest w3-container w3-padding-16">
+      <p>Founded: 2012</p>
+      <p>Contact: hd@hamachi.no</p>
+    </div>  
+  </div>
+</div>
+
+<!-- Footer with social media icons and credits -->
+
+<footer class="w3-center w3-padding">
+  <div class="w3-large w3-section">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>
+  <div class="w3-center w3-padding" style="font-weight:100;">
+    design by 
+    <a href="https://hamachi.no">
+      hamachi.no
+    </a>
+    <br>
+    photo by 
+    <a rel="noopener noreferrer" href="https://unsplash.com/@michele_purin">
+      michele purin, unsplash.com
+    </a>
+  </div>
+</footer> 
+
+</body>
+</html>
