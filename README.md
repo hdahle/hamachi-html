@@ -6,3 +6,6 @@ A very simple responsive single-page web-site
 - Google fonts
 - Responsive, using w3.css / w3-row class
 - Media-queries
+
+### https://hdahle.github.io/hamachi-html
+https://hdahle.github.io/hamachi-html
