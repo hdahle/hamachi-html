@@ -8,44 +8,33 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
   body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Arial", sans-serif;
-    font-display: swap;
-  }
-
-  /* headings: bold and extra character spacing */
-  h6 {
-    font-weight: 700;
-    letter-spacing: 2px;
-  }
-
-  /* text on top of image: white, transparent bg, light font */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-weight: 100;
-    letter-spacing: 2px;
-    background-color: transparent;
-    color: #ddd;
-    white-space: nowrap;
-  }
-
-  /* body text light grey, extra line spacing */
-  body,
   html {
+    font-family: "Arial", sans-serif;
     height: 100%;
     color: #222;
     line-height: 2;
   }
 
-  /* remove underlines from hyperlinks */
+  /* H2: for the down-arrow */
+  h2 {
+    color: #eee;
+  }
+
+  /* H6: for the paragraph headings */
+  h6 {
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  /* For the tagline on top of image */
+  .hamachi-tagline {
+    font-weight: normal;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: #ccc;
+  }
+
+  /* remove underlines from hyperlinks because they're ugly */
   a {
     text-decoration: none;
   }
@@ -92,8 +81,7 @@
     <div class="w3-display-bottommiddle w3-padding w3-center" style="width:100%;">
       <!-- <h1>hamachi</h1> -->
       <img src="img/hamachi-final-01.png" alt="Hamachi" style="width:90%;max-width:400px">
-      <p style="color:#aaa;letter-spacing: 2px;">Trying not to leave a mess</p>
-
+      <p class="hamachi-tagline">Trying not to leave a mess</p>
       <!-- Down-arrow in lower right hand corner -->
       <div class="w3-padding">
         <h2><i class="fa fa-angle-down"></i></h2>
@@ -121,7 +109,6 @@
         </a>
       </div>
     </div>
-
     <!-- Section: Technologies -->
 
     <div class="w3-row-padding">
@@ -179,7 +166,17 @@
         <p>Contact: hd@hamachi.no</p>
       </div>
     </div>
+
+    <div>
+      <iframe src="https://clara.io/embed/a2d2eb63-c0ac-4ad0-9598-b4938e19f79a?renderer=webgl" width="800" height="600"
+        allowfullscreen></iframe>
+    </div>
+
+
   </div>
+
+
+
 
   <!-- Footer with social media icons and credits -->
 
